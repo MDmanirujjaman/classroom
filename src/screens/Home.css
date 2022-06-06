@@ -1,0 +1,28 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #110f10;
+}
+
+.home__container {
+  background-color: #2e262c;
+  box-shadow: 0px 0px 2px -1px rgb(198, 168, 168);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.home__login {
+  margin-top: 30px;
+  padding: 15px;
+  background-color:rgb(135, 207, 84);
+  font-size: 18px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
